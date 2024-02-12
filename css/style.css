@@ -10,10 +10,11 @@ header{
 
 .contenitore{
   width: 100%;
-  height: 550px;
+  height: 600px;
   display: flex;
 }
 
 .blocco-sx{
   width: 150px;
+  height: 600px;
 }
