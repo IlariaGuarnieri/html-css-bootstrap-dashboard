@@ -10,11 +10,34 @@ header{
 
 .contenitore{
   width: 100%;
-  height: 600px;
+  height: 100vh;
   display: flex;
 }
 
 .blocco-sx{
   width: 150px;
-  height: 600px;
+  height: 100vh;
+}
+
+.blocco-dx{
+  width: 100%;
+  overflow-y: scroll;
+}
+
+#image{
+  width: 100%;
+  height: 100%;
+}
+
+#avatar{
+  width: 20px;
+  border-radius: 50px;
+}
+
+i{
+  font-size: 20px;
+  padding: 7px;
+  border: 1px solid #6E777F;
+  border-radius: 5px;
+  color: #6E777F;
 }
