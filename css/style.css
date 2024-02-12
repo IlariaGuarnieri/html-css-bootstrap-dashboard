@@ -5,8 +5,15 @@ header{
 
 .debug{
   background-color: aqua;
+  border: 1px solid black;
 }
 
 .contenitore{
-  
+  width: 100%;
+  height: 550px;
+  display: flex;
+}
+
+.blocco-sx{
+  width: 200px;
 }
