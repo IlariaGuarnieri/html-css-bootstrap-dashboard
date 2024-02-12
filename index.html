@@ -39,31 +39,108 @@
                 <!-- Tabella delle classi -->
                 <div class="card">
                   <div class="card-header">
-                    Prossime classi
+                    <h2>Prossime classi</h2>
                   </div>
                   <div class="card-body">
                     <table class="table">
                       <thead>
                         <tr>
-                          <th scope="col">Nome</th>
-                          <th scope="col">Data inizio</th>
-                          <th scope="col">ROI</th>
-                          <th scope="col">Stato</th>
-                          <th scope="col">Azioni</th>
+                          <th class="col">Nome</th>
+                          <th class="col d-none d-md-table-cell">Data inizio</th>
+                          <th class="col d-none d-md-table-cell">ROI</th>
+                          <th class="col">Stato</th>
+                          <th class="col">Azioni</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr class="align-text-bottom">
                           <td> <img id="avatar" src="img/class-avatar.jpg" alt=""> Classe 75</td>
-                          <td>15 Feb 2021</td>
-                          <td>20%</td>
-                          <td><button type="submit" class="btn btn-success">Send</button></td>
+                          <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><button type="submit" class="btn btn-success">Done</button></td>
                           <td>
                             <i class="fa-solid fa-pencil"></i>
                             <i class="fa-solid fa-trash"></i>
                           </td>
                         </tr>
-                        <!-- Ripeti le righe della tabella per altri dati -->
+                        
+                        <tr class="align-text-bottom">
+                          <td> <img id="avatar" src="img/class-avatar.jpg" alt=""> Classe 76</td>
+                          <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><button type="submit" class="btn btn-success">Done</button></td>
+                          <td>
+                            <i class="fa-solid fa-pencil"></i>
+                            <i class="fa-solid fa-trash"></i>
+                          </td>
+                        </tr>
+
+                        <tr class="align-text-bottom">
+                          <td> <img id="avatar" src="img/class-avatar.jpg" alt=""> Classe 77</td>
+                          <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><button type="submit" class="btn btn-warning">Done</button></td>
+                          <td>
+                            <i class="fa-solid fa-pencil"></i>
+                            <i class="fa-solid fa-trash"></i>
+                          </td>
+                        </tr>
+
+                        <tr class="align-text-bottom">
+                          <td> <img id="avatar" src="img/class-avatar.jpg" alt=""> Classe 78</td>
+                          <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><button type="submit" class="btn btn-success">Done</button></td>
+                          <td>
+                            <i class="fa-solid fa-pencil"></i>
+                            <i class="fa-solid fa-trash"></i>
+                          </td>
+                        </tr>
+
+                        <tr class="align-text-bottom">
+                          <td> <img id="avatar" src="img/class-avatar.jpg" alt=""> Classe 79</td>
+                          <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><button type="submit" class="btn btn-danger">Done</button></td>
+                          <td>
+                            <i class="fa-solid fa-pencil"></i>
+                            <i class="fa-solid fa-trash"></i>
+                          </td>
+                        </tr>
+
+                        <tr class="align-text-bottom">
+                          <td> <img id="avatar" src="img/class-avatar.jpg" alt=""> Classe 80</td>
+                          <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><button type="submit" class="btn btn-success">Done</button></td>
+                          <td>
+                            <i class="fa-solid fa-pencil"></i>
+                            <i class="fa-solid fa-trash"></i>
+                          </td>
+                        </tr>
+
+                        <tr class="align-text-bottom">
+                          <td> <img id="avatar" src="img/class-avatar.jpg" alt=""> Classe 81</td>
+                          <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><button type="submit" class="btn btn-danger">Done</button></td>
+                          <td>
+                            <i class="fa-solid fa-pencil"></i>
+                            <i class="fa-solid fa-trash"></i>
+                          </td>
+                        </tr>
+
+                        <tr class="align-text-bottom">
+                          <td> <img id="avatar" src="img/class-avatar.jpg" alt=""> Classe 82</td>
+                          <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><button type="submit" class="btn btn-success">Done</button></td>
+                          <td>
+                            <i class="fa-solid fa-pencil"></i>
+                            <i class="fa-solid fa-trash"></i>
+                          </td>
+                        </tr>
+
                       </tbody>
                     </table>
                   </div>
@@ -84,12 +161,31 @@
                 <!-- Todo List -->
                 <div class="card">
                   <div class="card-header">
-                    Todo
+                    <h2>Todo</h2>
                   </div>
                   <div class="card-body">
-                    <!-- Inserisci qui la lista todo -->
+                    <div>
+                      <div class="row">
+                        <ul class="list-group">
+                          <li class="list-group-item"><div class="form-check form-check-group">
+                            <input id="checkbox6" type="checkbox" checked="checked">
+                            <label for="checkbox6">Kickoff nuove classi</label>
+                          </div></li>
+                          <li class="list-group-item"><div class="form-check form-check-group">
+                            <input id="checkbox7" type="checkbox">
+                            <label for="checkbox7">Lezione su bootstrap 5 in classe #75</label>
+                          </div></li>
+                          <li class="list-group-item"><div class="form-check form-check-group">
+                            <input id="checkbox7" type="checkbox">
+                            <label for="checkbox7">Controllare username github studenti</label>
+                          </div>
+                        </div></li>
+                        </ul>
+                        
+                    </div>
                   </div>
                 </div>
+              </div>
           
                 <!-- Grafico -->
                 <div class="card mt-4">
