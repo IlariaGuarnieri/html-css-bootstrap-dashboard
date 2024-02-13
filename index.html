@@ -14,23 +14,34 @@
 </head>
 <body>
   <!-- header -->
+
+  <!-- logo -->
   <header class=" d-flex">
     <div class="logo">
       <img src="img/logo.svg" alt="">
     </div>
-
+<!-- searchbar -->
     <div class="searchbar d-flex ">
       <div class="lents">
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
       <input type="text" placeholder="Prova a cercare: Lezioni di Laravel">
     </div>
-
+    
+<!-- elementi a destra della navbar -->
     <div class="elements">
-      <i class="fa-solid fa-bars"></i>
-      <i class="fa-solid fa-question"></i>
-      <i class="fa-solid fa-ellipsis-vertical"></i>
-      <i class="fa-solid fa-bell"></i>
+      <button class="btn d-none d-lg-block"><i class="fa-solid fa-bars"></i></button>
+      <button class="btn d-none d-lg-block"><i class="fa-solid fa-question"></i></button>
+      <button class="btn d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+<!-- campana a tendina -->
+      <div class="dropdown">
+        <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bell"></i></button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item " href="#">Profilo</a></li>
+          <li><a class="dropdown-item " href="#">Fatturazione</a></li>
+          <li><a class="dropdown-item " href="#">Logout</a></li>
+        </ul>
+      </div>
     </div>
 
   </header>
