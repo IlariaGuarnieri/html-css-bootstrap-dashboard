@@ -14,8 +14,25 @@
 </head>
 <body>
   <!-- header -->
-  <header class="debug">
-    
+  <header class=" d-flex">
+    <div class="logo">
+      <img src="img/logo.svg" alt="">
+    </div>
+
+    <div class="searchbar d-flex ">
+      <div class="lents">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <input type="text" placeholder="Prova a cercare: Lezioni di Laravel">
+    </div>
+
+    <div class="elements">
+      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-question"></i>
+      <i class="fa-solid fa-ellipsis-vertical"></i>
+      <i class="fa-solid fa-bell"></i>
+    </div>
+
   </header>
   <!-- /header -->
 
@@ -32,18 +49,33 @@
       <div class="blocco-dx debug">
 
 <!-- Boolean -->
-        <div class="container debug">
+        <div class="c-blu">
           <div class="row">
             <div class="col-12 col-lg-6">
               <div class="btn-boolean">
                 <h1>Boolean</h1> 
                 <span> Piano blaze</span>
               </div>
-              <span>3 app</span> 
-              <i class="fa-solid fa-chevron-right"></i>
+              <div class="btn-boolean">
+                <span>3 app</span> 
+                <i class="fa-solid fa-chevron-right"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+                <span>Boolean mobile app</span> 
+                <span>Boolean web app</span> 
+                <span>Boolean blog app</span> 
+              </div>
             </div>
-            <div class="col-12 col-lg-3">ciap</div>
-            <div class="col-12 col-lg-3">studente</div>
+            <div class="col-12 col-lg-3">
+              <p class="c-white font"> Studenti online negli ultimi 30 minuti</p>
+              <h2 class="c-white">125</h2>
+            </div>
+            <div class="col-12 col-lg-3">
+              <div class=" d-flex ">
+                <p class="c-white font "> Nuovo studente </p>
+                <button type="button" class="btn btn-outline-light ">+</button>
+              </div>
+            
+            </div>
           </div>
         </div>
 
