@@ -20,13 +20,12 @@ header{
 }
 
 .blocco-dx{
-  width: 100%;
   overflow-y: scroll;
 }
 
+
 #image{
   width: 200px;
-
 }
 
 #avatar{
