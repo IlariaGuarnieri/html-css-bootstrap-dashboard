@@ -21,6 +21,11 @@ header{
 
 .blocco-dx{
   overflow-y: scroll;
+  width: 100%;
+}
+
+.col-md-4{
+  width: 30px;
 }
 
 
