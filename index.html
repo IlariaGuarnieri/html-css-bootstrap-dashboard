@@ -20,6 +20,13 @@
     <div class="logo">
       <img src="img/logo.svg" alt="">
     </div>
+
+    <div class="logo-b ">
+      <img src="img/mobile-logo.png" alt="">
+    </div>
+
+  
+
 <!-- searchbar -->
     <div class="searchbar d-flex ">
       <div class="lents">
@@ -49,17 +56,18 @@
 
   <main>
 <!-- TUTTA LA PARTE DI SINISTRA -->
-    <section class="contenitore debug">
-      <div class="blocco-sx debug">
-
+    <section class="contenitore">
+      <div class="blocco-sx">
+        <div class="mx-2 d-flex "> <i class="fa-solid fa-house mx-2 my-3"></i><p class="d-none d-lg-block my-2">Home</p></div>
+        <div class="mx-2 d-flex"> <i class="fa-solid fa-chart-simple mx-2 my-3"></i> <p class="d-none d-lg-block my-2">Stats</p></div>
+        <div class="mx-2 d-flex"> <i class="fa-solid fa-signal mx-1 my-3"></i> <p class="d-none d-lg-block my-2">Signal</p></div>
       </div>
 
 <!-- TUTTA LA PARTE DI DESTRA -->
 
+      <div class="blocco-dx">
 
-      <div class="blocco-dx debug">
-
-<!-- Boolean -->
+<!-- Boolean zona blu-->
         <div class="c-blu">
           <div class="row">
             <div class="col-12 col-lg-6">
@@ -82,18 +90,47 @@
             </div>
             <div class="col-12 col-lg-3">
               <div class=" d-flex ">
-                <p class="c-white font"> Nuovo studente </p>
-                
+                <p class="c-white font "> Nuovo studente </p>
+            
+
 <!-- offcanvas -->
                 <button type="button" class="btn btn-outline-light "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
 
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class=" ciao offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                    <h5 class="offcanvas-title" 
+
+                    id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body">
-                    ...
+                    <div class="d-flex">
+                      <div>
+                        nome
+                      <div class="name"><input type="text"></div>
+                      </div>
+  
+                      <div>
+                        cognome
+                      <div class="name"><input type="text"></div>
+                      </div>
+                    </div>
+                    
+                    <div class="d-flex">
+                      <div>
+                        email
+                      <div class="name"><input type="email"></div>
+                      </div>
+  
+                      <div>
+                        password
+                      <div class="name"><input type="password"></div>
+                      </div>
+                    </div>
+                    
+
+
                   </div>
                 </div>
 
@@ -225,16 +262,54 @@
                 </div>
                 
 <!-- FAQ -->
-                <div class="card mt-4">
-                  <div class="card-header">
-                    F.A.Q.
-                  </div>
-                  <div class="card-body">
-                    <p>Come aggiungere un nuovo studente?</p>
-                    <p>Come aggiungere un nuovo studente?</p>
-                  </div>
-                </div>
-              </div>
+    <div class="card mt-4">
+      <div class="card-header">
+        F.A.Q.
+      </div>
+      
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Come aggiungere un nuovo studente?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dicta quibusdam perferendis eaque sed, voluptate deserunt. Esse illum, amet facilis, consequatur ullam quam fugiat, itaque voluptas rem repudiandae possimus atque?
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Come posso accedere alle informazioni del mio account?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit illo dolores ex, incidunt expedita totam molestias sed rem aliquam repudiandae facilis omnis consectetur corrupti excepturi, consequatur, tenetur voluptatum vero?
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Posso usare questa dashboard da mobile?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum omnis aut repudiandae voluptatum exercitationem laudantium explicabo nihil saepe ipsam iure? Dolore laborum at nemo impedit quae! Dolorem laborum voluptas eveniet?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+           
               
 <!-- Todo List -->
               <div class="col-md-4">
@@ -269,6 +344,12 @@
                 <div class="card mt-4">
                   <div class="card-body">
                     <img id="image" src="img/stats.jpeg" alt=" grafico">
+                    <h4>Utenti attivi</h4>
+                    <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                    <p>Gennaio: 1200 </p>
+                    <p>Febbraio: 800</p>
+                    <p>Marzo: 1500</p>
+                    <a href="#">Visualizza report approfondito</a>
                   </div>
                 </div>
 

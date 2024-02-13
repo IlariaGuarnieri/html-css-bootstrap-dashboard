@@ -15,6 +15,13 @@ header{
   align-items: center;
 }
 
+.logo-b{
+  width: 15%;
+  height: 100%;
+  display: flex;
+}
+
+
 .searchbar{
   padding: 10px;
   width: 85%;
@@ -43,6 +50,10 @@ header{
 
 .fa-bell{
   color: orange;
+}
+
+.name input{
+  border-radius: 5px;
 }
 
 .elements{
@@ -97,6 +108,8 @@ span:hover{
 .blocco-sx{
   width: 150px;
   height: 100vh;
+  background-color: #051D34;
+  color: white;
 }
 
 .blocco-dx{
@@ -125,4 +138,37 @@ span:hover{
   border: 1px solid #6E777F;
   border-radius: 5px;
   color: #6E777F;
+}
+
+.ciao{
+  width: 100%;
+}
+
+.mt-4 p{
+  font-size: 15px;
+  border-bottom: 1px solid black;
+}
+
+@media screen and (max-width:992px){
+  .blocco-sx{
+    width: 50px;
+  }
+
+  .searchbar{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width:992px){
+
+  .logo-b{
+    display: none;
+  }
 }
